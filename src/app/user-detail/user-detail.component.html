@@ -1,0 +1,6 @@
+<div *ngif="user">
+    <h2>User Details</h2>
+    <img [src]="user.avatar" alt="User Avatar" width="100" height="100" />
+    <p><strong>Name:</strong> {{ user.name }}</p>
+    <p><strong>ID:</strong> {{ user.id }}</p>
+  </div>
