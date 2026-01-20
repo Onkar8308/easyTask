@@ -12,9 +12,6 @@ import { TaskService } from '../tasks.service';
   templateUrl: './task.component.html',
   styleUrl: './task.component.css'
 })
-
-
-
 export class SubTaskComponent {
 
   constructor(
