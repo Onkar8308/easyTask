@@ -15,13 +15,13 @@ import { NgFor, NgIf } from '@angular/common';
 export class AppComponent {
 
   users = DUMMY_USERS;
-  selectedUserId?:string;
-  
+  selectedUserId?: string;
+
 
   get selectedUser() {
     return this.users.find((user) => user.id === this.selectedUserId);
   }
-  
+
 
   onSelectUser(id: string) {
     this.selectedUserId = id;
