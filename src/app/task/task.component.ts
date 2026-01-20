@@ -45,7 +45,6 @@ export class TaskComponent implements OnChanges{
   }
 
   onAddTask(taskData : newTaskModel ){
-   
     this.isAddingTask = false;
   }
 

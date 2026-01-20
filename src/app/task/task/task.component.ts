@@ -20,7 +20,6 @@ export class SubTaskComponent {
   constructor(
     private taskService :  TaskService,
   ){
-
   }
 
   @Input({required: true}) task!: Task;
